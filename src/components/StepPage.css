@@ -1,0 +1,125 @@
+.step-page{
+    background-image: url('../images/step-bg.jpg');
+    width: 100%;
+    height: 583px;
+    background-size: cover;
+    background-attachment: scroll;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+
+.mar{
+    margin-top: 100px;
+}
+
+hr.solid{
+    display: block;
+    border-top: 3px solid #ff6600;
+    text-align: center;
+    width: 67px;
+    margin: 10px auto;  
+    opacity: 1;
+}
+
+.step-mainss{
+    margin-top: 50px;
+}
+
+.step-main{
+    position: relative;
+}
+
+.step-main a.active{
+    background-color: black;
+    padding: 85px 0px 85px 0px;
+}
+
+.step-main a{
+    position: relative;
+    font-size: 13pt;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background-color: #ff6600;
+    color: #fff;
+    cursor: pointer;
+    z-index: 999;
+    display: block;
+    margin: 0 auto;
+    padding: 80px 0px 80px 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.step-main:last-child:after{
+    width: 0x;
+    height: 0px;
+}
+
+.step-main:after{
+    content: '';
+    background-color: #DBDBDB;
+    height: 1px;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    z-index: 0;
+}
+
+
+.step-text{
+    position: relative;
+    height: 186.953px !important;
+}
+
+.inn-text{
+    position: absolute;
+    left: 15px;
+    top: 0px;
+    margin-top: 50px;
+}
+
+a:hover{
+    background-color: rgb(37, 37, 37);
+    outline: 0;
+    transition: all 0.3s ease;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .step-page{ 
+        height: 1400px; 
+    }
+    .step-main:after{
+        content: '';
+        background-color: #DBDBDB;
+        height: 100%;
+        width: 1px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 0;
+    }
+    .step-mainss .step-main{
+        margin-top: 30px;
+    }
+
+    .step-main a{
+
+        width: 150px;
+        height: 130px;
+
+      
+        padding: 60px 0px 80px 0px;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+
+/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+} */

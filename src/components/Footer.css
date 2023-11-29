@@ -1,0 +1,32 @@
+.sub-container{
+    display: flex;
+}
+
+.recentPosts a {
+    text-decoration: none;
+}
+.date .month{
+    background-color: #ff6600;
+    width: 50px;
+    height: 85px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 10px 0px 0px;
+}
+
+.recentPosts .month{
+    font-size: 15px;
+}
+.recentPosts .news{
+    display: block;
+    font-size: 10px;
+}
+
+.pStyle{
+    font-size: 17px;
+}
+
+.pStyle1{
+    font-size: 15px;
+}

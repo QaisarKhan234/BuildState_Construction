@@ -1,0 +1,20 @@
+.cc{
+    margin: 12px;
+    color: #606060;
+
+}
+
+.cd{
+    text-align: center;
+    border: none !important;
+   
+}
+
+.card-hover:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.custom-container{
+    margin-top: 150px;
+}

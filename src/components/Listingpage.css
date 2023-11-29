@@ -1,0 +1,39 @@
+.Listingpage{
+    position: relative;
+    background-image: url("../images/testi-bg.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    padding: 90px 0 90px 0;
+    background-attachment: scroll;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+}
+
+blockquote{
+    padding: 10px 20px;
+    margin: 0 0 20px;     
+}
+
+.blockquote {
+    margin-left: 180px !important;
+}
+.custom-blockquote h2 {
+    font-size: 30pt;
+    font-weight: 600;
+}
+.custom-blockquote p{
+    font-size: 20pt;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 25pt;
+}
+
+@media only screen and (max-width: 767px) {
+    .blockquote {
+        margin-left: 0px !important;
+        height: auto;
+        
+    }
+}

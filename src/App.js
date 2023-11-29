@@ -1,24 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import BrandsSlider from './components/BrandsSlider';
+import MyCarousel from './components/Carousel';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Listingpage from './components/Listingpage';
+import MyCard from './components/MyCard';
+import SmallSlider from './components/SmallSlider';
+import StepPage from './components/StepPage';
+import Team from './components/Team';
+import Yellopage from './components/Yellopage';
+import YellowPage2 from './components/YellowPage2';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <Header/>
+        <MyCarousel/>
+        <SmallSlider/>
+        <MyCard />
+        <Yellopage/>
+        <StepPage/>
+        <YellowPage2/>
+        <Listingpage/>
+        <Team/>
+        <BrandsSlider/>
+        <Footer/>
+      </div>
+    </>
   );
 }
 

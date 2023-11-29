@@ -1,0 +1,41 @@
+/* .carouselcss {
+    height: 70%;
+    position: relative;
+    top: 0px;
+    
+} */
+
+.transition {
+  left: -3%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 200.641px;
+}
+
+.custom-carousel h3 {
+  font-family: 38px "Montserrat", sans-serif;
+}
+
+p {
+  font: 25px "Monsterrat", sans-serif;
+}
+
+.custom-button {
+  border: 1px solid rgba(255, 255, 255, 0.349) !important;
+  border-radius: 0% !important;
+  margin-top: 3%;
+}
+
+.custom-carousel .carousel-item {
+  position: relative;
+  height: 550px;
+}
+
+@media only screen and (max-width: 767px) {
+  .custom-carousel {
+   
+    height: 300px;
+  }
+}

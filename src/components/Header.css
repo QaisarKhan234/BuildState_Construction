@@ -1,0 +1,52 @@
+.navbar{
+    z-index: 1;
+}
+.navbar-nav {
+    color: #EFEFEF;
+    padding: 10px 0px;
+    font: 13px Montserrat, arial, helvetica, sans-serif;
+}
+
+.logoPosition{
+    margin-left: -28% !important;
+}
+.butonPosition{
+    float: right;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    transition: all, 0.3s, ease;
+}
+
+span.active {
+    color: #ff6600;
+}
+
+.mousehover:hover {
+    color: #ff6600;
+}
+
+
+ul .dropdown-menu{
+    background-color: black;
+}
+
+li .dropdown-item{
+    color: #EFEFEF;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar{
+        width: 99.80%;
+        position: fixed;
+    }
+    .logoPosition{
+        margin-left: -10% !important;
+        width: 50%;
+    }
+    .butonPosition{
+        float: right;
+        margin-right: -50px;
+    }
+}
+  

@@ -1,0 +1,29 @@
+.yellowpage{
+    width: 100%;
+    height: auto;
+    background-color: #ff6600;
+    padding: 30px 0 30px 0;
+    font-family: Montserrat, sans-serif;
+
+}
+.milestone-counter{
+    color: black;
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+.icon{
+    font-size: 48px;
+}
+
+.highlight{
+    padding: 10px 0px;
+    font-weight: bold;
+    display: block;
+    font-size: 40px;
+}
+
+.milestone-details{
+    font-size: 18px;
+    font-weight: bold;
+}

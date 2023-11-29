@@ -52,7 +52,6 @@ const YellowPage2 = () => {
         </div>
       </div>
 
-      <div>New Features added</div>
     </div>
 
   );
